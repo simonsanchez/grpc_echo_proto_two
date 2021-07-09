@@ -7,6 +7,7 @@ package echo;
 service EchoService {
 	rpc Echo(EchoRequest) returns (EchoResponse) {}
 	rpc Foo(EchoRequest) returns (EchoResponse) {}
+	rpc Bar(EchoRequest) returns (EchoResponse) {}
 }
 
 message EchoRequest {
