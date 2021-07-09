@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option go_package = "github.com/simonsanchez/grpc_echo_proto_two/v2";
+
+package echo;
+
+service EchoService {
+	rpc Echo(EchoRequest) returns (EchoResponse) {}
+	rpc Foo(EchoRequest) returns (EchoResponse) {}
+	rpc Bar(EchoRequest) returns (EchoResponse) {}
+	rpc Baz(EchoRequest) returns (EchoResponse) {}
+}
+
+message EchoRequest {
+	string message = 1;
+}
+
+message EchoResponse {
+	string message = 1;
+}
