@@ -1,4 +1,4 @@
-module github.com/simonsanchez/grpc_echo_proto
+module github.com/simonsanchez/grpc_echo_proto_two
 
 go 1.16
 
