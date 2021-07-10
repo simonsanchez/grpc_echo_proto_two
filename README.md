@@ -1,6 +1,6 @@
 # General Notes on Package Versioning
 
-The companion repo that implements the gRPC server lives here.
+The companion repo that implements the gRPC server lives [here](https://github.com/simonsanchez/grpc_echo_server).
 
 # v0 and v1
 
